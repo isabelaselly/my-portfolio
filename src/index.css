@@ -1,0 +1,198 @@
+body {
+  font-family: 'Montserrat', sans-serif; /* A modern, slightly rounded sans-serif */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f4f0; /* Soft, warm off-white */
+  color: #333; /* Dark grey for good readability */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Navigation */
+nav {
+  padding: 20px 30px;
+  background-color: #fff; /* Clean white for contrast */
+  border-bottom: 1px solid #e0ddd9; /* Subtle divider */}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555; /* Medium grey */
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #a58f77; /* Warm, earthy accent color */
+}
+
+/* Header/Hero Section */
+header {
+  padding: 80px 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif; /* Elegant, slightly whimsical serif */
+  font-size: 3.5em;
+  color: #222; /* Dark, sophisticated color */
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Generic Content Section */
+section {
+  padding: 60px 30px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8em;
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Projects Section (Example - Adjust based on your actual project structure) */
+#projects {
+  background-color: #fff;
+  border-top: 1px solid #e0ddd9;
+  border-bottom: 1px solid #e0ddd9;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.project-item {
+  background-color: #f8f4f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Contact Section (Example) */
+#contact {
+  text-align: center;
+}
+
+#contact p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: #a58f77;
+  font-size: 1.3em;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact ul li a:hover {
+  color: #7d6a56; /* Darker earthy tone */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0ddd9;
+  color: #555;
+  font-size: 0.9em;
+  border-top: 1px solid #d1c9c0;
+}
+
+/* Fun and Subtle Touches (Lauren Daigle Inspired) */
+
+/* Subtle background texture (optional - you might need to implement this with an image or a very light pattern) */
+/* body {
+  background-image: url('subtle-texture.png');
+  background-repeat: repeat;
+} */
+
+/* Slightly rounded corners for elements */
+nav, header, section, .project-item, footer {
+  border-radius: 6px; /* Adjust as needed */
+}
+
+/* Gentle shadow for depth */
+nav, header, section {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Animated hover effect on links */
+nav ul li a:hover,
+#contact ul li a:hover {
+  transform: scale(1.05);
+}
+
+/* Typography Pairing */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Responsive Design (Basic) */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  header {
+    padding: 60px 20px;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+}
+
+/* Import Fonts (Add these to your HTML <head> or use a CSS import) */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> */
+
+/* Or using CSS import: */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap'); */
