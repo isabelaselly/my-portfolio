@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; // Import the CSS file for this page
+import './Home.css'; 
 
 function Home() {
   return (
@@ -10,8 +10,8 @@ function Home() {
         <div className="banner-text">
           <h2>Isabela Selleck  </h2>
           <p> Look at me I found my wings.</p>
-          {/* Optional: Add a call-to-action button */}
-          {/* <button>Learn More</button> */}
+          
+
         </div>
       </div>
     </div>

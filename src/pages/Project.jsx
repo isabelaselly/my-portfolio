@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import './Project.css'; // Ensure your CSS file is linked
+import './Project.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-
-// Import your photography images
 import photo1 from "../../assets/7.jpg";
 import photo2 from "../../assets/8.jpg";
 import photo3 from "../../assets/9.jpg";
 import photo4 from "../../assets/10.jpg";
 import photo5 from "../../assets/11.jpg";
 import photo6 from "../../assets/12.jpg";
-import video from "../../assets/facebook.mp4"; // Import your video
-import mockImage from "../../assets/mock.png"; // Import the mock image
+import video from "../../assets/facebook.mp4";
+import mockImage from "../../assets/mock.png";
 
 function Projects() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
@@ -50,14 +48,14 @@ function Projects() {
   const otherProjects = [
     {
         name: 'Social Media Campaign (Mockup)',
-        type: 'image', // Changed type to 'image'
-        url: mockImage, // Use the imported mock image variable
+        type: 'image',
+        url: mockImage,
         description: 'I partnered with Ai, to create a fake social media campaign.',
       },
     {
       name: 'Graphics',
       type: 'video',
-      url: video, // Use the imported video variable
+      url: video,
       description: 'Using Preimere Pro and Photoshop, I created graphics and a video for a facebook ad. The video was created to promote a real estate agency to audeicnes looking to buy a house.',
     },
 
@@ -100,7 +98,7 @@ function Projects() {
 
   const currentGalleryProject = galleryProjects[currentProjectIndex];
   const currentPhoto = photographyImages[currentPhotoIndex];
-  const photographyPortfolioDescription = 'Explore a collection of my photographic journey, capturing moments and perspectives for a start up clothing brand.'; // Your static description here
+  const photographyPortfolioDescription = 'Explore a collection of my photographic journey, capturing moments and perspectives for a start up clothing brand.';
 
   return (
     <div className="projects-page">
@@ -144,7 +142,7 @@ function Projects() {
 
       <div className="other-projects">
         <h2>Other Projects</h2>
-        <div className="other-projects-grid"> {/* Container for the grid */}
+        <div className="other-projects-grid">
           {otherProjects.map((project, index) => (
             <div key={index} className="project-item">
               <h3>{project.name}</h3>

@@ -1,100 +1,96 @@
-/* Home.css */
-
 .home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh; /* Make the container take the full viewport height */
-  background-color: #f0f0f0;
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  text-align: center;
-  overflow: hidden; /* Prevent scrollbars if content overflows initially */
-}
-
-.banner {
-  position: relative;
-  width: 100%; /* Make banner take full width */
-  height: 100vh; /* Make banner take full viewport height */
-  border-radius: 0; /* Remove border radius */
-  overflow: hidden;
-  box-shadow: none; /* Remove shadow */
-  margin: 0; /* Remove margins */
-}
-
-.banner-image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Cover the entire banner area */
-}
-
-.banner-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.183);
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-  width: 80%;
-  max-width: 800px;
-  z-index: 1; /* Ensure text is above the image */
-}
-
-.banner-text h2 {
-  font-size: 3em;
-  margin-bottom: 15px;
-  font-weight: bold;
-  color: aliceblue;
-}
-
-.banner-text p {
-  font-size: 1.2em;
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-
-/* Optional: Style for the call-to-action button */
-.banner-text button {
-  background-color: #007bff;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  transition: background-color 0.3s ease;
-}
-
-.banner-text button:hover {
-  background-color: #0056b3;
-}
-
-/* Remove responsive adjustments that might limit size */
-@media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: none;
+    margin: 0;
+  }
+  
+  .banner-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
   .banner-text {
-    width: 90%;
-    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.183);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    z-index: 1;
   }
-
+  
   .banner-text h2 {
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: aliceblue;
   }
-
+  
   .banner-text p {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin-bottom: 20px;
   }
-}
-
-@media (max-width: 480px) {
-  .banner-text h2 {
-    font-size: 2em;
-  }
-
-  .banner-text p {
+  
+  .banner-text button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     font-size: 1em;
+    transition: background-color 0.3s ease;
   }
-}
+  
+  .banner-text button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-text {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .banner-text h2 {
+      font-size: 2.5em;
+    }
+  
+    .banner-text p {
+      font-size: 1.1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-text h2 {
+      font-size: 2em;
+    }
+  
+    .banner-text p {
+      font-size: 1em;
+    }
+  }

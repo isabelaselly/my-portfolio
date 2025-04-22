@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar" 
 import Footer from "./components/Footer";
 import About from "./pages/About"
-import Projects from "./pages/Project"; // or ./pages/Projects if you renamed the file
+import Projects from "./pages/Project"; 
 import Contact from "./pages/Contact";
 import Home from "./pages/home";
 import './index.css';

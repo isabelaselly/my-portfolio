@@ -1,12 +1,12 @@
 import React from 'react';
-import './Contact.css'; // Assuming you'll style this page similarly
+import './Contact.css'; 
 
 function Contact() {
   return (
     <div className="contact-page">
       <div className="banner">
         <img
-          src="../../assets/lightbulb.png" // Replace with your actual banner image path
+          src="../../assets/lightbulb.png" 
           alt="Contact Banner"
           className="banner-image"
         />
@@ -15,7 +15,7 @@ function Contact() {
           <p className="banner-subtext">Lets work together</p>
           <button className="linkedin-button">
   <a
-    href="https://www.linkedin.com/in/isabela-selleck" // Corrected attribute and added https://
+    href="https://www.linkedin.com/in/isabela-selleck" 
     target="_blank"
     rel="noopener noreferrer"
   >

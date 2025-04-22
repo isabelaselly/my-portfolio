@@ -1,5 +1,3 @@
-/* Project.css */
-
 .projects-page {
     font-family: sans-serif;
     padding: 20px;
@@ -49,7 +47,7 @@
   .website-preview,
   .wireframe-preview {
     width: 100%;
-    height: 600px; /* Reduced height for iframe previews */
+    height: 600px;
     border: 1px solid #ccc;
     overflow: auto;
     margin: 10px 0;
@@ -63,39 +61,39 @@
   }
 
   .photography {
-    max-width: 60%; /* Further reduced max-width for the single photography image */
+    max-width: 60%;
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
   }
 
-  .project-slide a.project-link { /* Targeting the "Visit Website" link */
+  .project-slide a.project-link {
     display: inline-block;
-    padding: 12px 24px; /* Slightly larger padding */
-    border: 2px solid #add8e6; /* Light blue border */
-    border-radius: 25px; /* Even more rounded */
-    font-weight: 600; /* Semi-bold text */
+    padding: 12px 24px;
+    border: 2px solid #add8e6;
+    border-radius: 25px;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More prominent shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 15px;
-    background-color: #e0f2f7; /* Very light blue background */
-    color: #6495ed; /* Cornflower blue text */
-    font-size: 1em; /* Slightly larger font size */
-    text-decoration: none; /* Remove default link underline */
+    background-color: #e0f2f7;
+    color: #6495ed;
+    font-size: 1em;
+    text-decoration: none;
   }
   
   .project-slide a.project-link:hover {
-    background-color: #6495ed; /* Cornflower blue background on hover */
-    color: white; /* White text on hover */
-    transform: translateY(-3px); /* More noticeable lift */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
-    border-color: #4682b4; /* Darker blue border on hover */
+    background-color: #6495ed;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-color: #4682b4;
   }
   
   .project-slide a.project-link:active {
-    transform: translateY(-1px); /* Slight push down on click */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on click */
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .project-description {
@@ -107,7 +105,7 @@
   .photography-carousel {
     margin-top: 40px;
     width: 100%;
-    max-width: 1100px; /* Further reduced max-width of the carousel container */
+    max-width: 1100px;
     text-align: center;
   }
 
@@ -125,10 +123,10 @@
   .carousel-arrow {
     background: none;
     border: none;
-    font-size: 1.2em; /* Even smaller arrows */
+    font-size: 1.2em;
     color: #333;
     cursor: pointer;
-    padding: 3px; /* Even smaller padding */
+    padding: 3px;
     outline: none;
   }
 
@@ -148,13 +146,12 @@
   }
 
   .carousel-slide img {
-    max-width: 60%; /* Further reduced max-width of images in the carousel */
+    max-width: 60%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 1px 2px rgba(90, 41, 41, 0.1); /* Even smaller shadow */
+    box-shadow: 0 1px 2px rgba(90, 41, 41, 0.1);
   }
 
-  /* CSS for the "Other Projects" grid layout */
   .other-projects h2 {
     margin-bottom: 15px;
     text-align: center;
@@ -162,16 +159,16 @@
 
   .other-projects-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Stack items by default for smaller screens */
+    grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
-    max-width: 1000px; /* Adjust as needed */
+    max-width: 1000px;
     margin-top: 20px;
   }
 
   @media (min-width: 600px) {
     .other-projects-grid {
-      grid-template-columns: repeat(2, 1fr); /* Two columns for wider screens */
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -197,40 +194,34 @@
     margin-bottom: 10px;
   }
 
-  /* Project.css */
+  .other-projects-grid .project-item a.project-button,
+  .other-projects-grid .project-item button.project-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid #add8e6;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    background-color: #e0f2f7;
+    color: #6495ed;
+    font-size: 1em;
+    text-decoration: none;
+  }
 
-/* ... other CSS rules ... */
+  .other-projects-grid .project-item a.project-button:hover,
+  .other-projects-grid .project-item button.project-button:hover {
+    background-color: #6495ed;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-color: #4682b4;
+  }
 
-.other-projects-grid .project-item a.project-button, /* Apply styles to <a> tags */
-.other-projects-grid .project-item button.project-button {
-  display: inline-block;
-  padding: 12px 24px; /* Slightly larger padding */
-  border: 2px solid #add8e6; /* Light blue border */
-  border-radius: 25px; /* Even more rounded */
-  font-weight: 600; /* Semi-bold text */
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* More prominent shadow */
-  margin-top: 15px;
-  background-color: #e0f2f7; /* Very light blue background */
-  color: #6495ed; /* Cornflower blue text */
-  font-size: 1em; /* Slightly larger font size */
-  text-decoration: none; /* Remove default link underline */
-}
-
-.other-projects-grid .project-item a.project-button:hover,
-.other-projects-grid .project-item button.project-button:hover {
-  background-color: #6495ed; /* Cornflower blue background on hover */
-  color: white; /* White text on hover */
-  transform: translateY(-3px); /* More noticeable lift */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
-  border-color: #4682b4; /* Darker blue border on hover */
-}
-
-.other-projects-grid .project-item a.project-button:active,
-.other-projects-grid .project-item button.project-button:active {
-  transform: translateY(-1px); /* Slight push down on click */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on click */
-}
-
-/* ... rest of your CSS rules ... */
+  .other-projects-grid .project-item a.project-button:active,
+  .other-projects-grid .project-item button.project-button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

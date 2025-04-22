@@ -3,8 +3,8 @@
 .contact-page {
     font-family: sans-serif;
     color: #333;
-    margin: 0; /* Remove default page margin */
-    min-height: 100vh; /* Make the page take full viewport height */
+    margin: 0;
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
   }
@@ -12,14 +12,14 @@
   .banner {
     position: relative;
     width: 100%;
-    height: auto; /* Adjust height based on content */
+    height: auto; 
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #f0f0f0; /* Default background color */
+    background-color: #f0f0f0; 
   }
   
   .banner-image {
@@ -75,7 +75,7 @@
   }
   
   .contact-content {
-    flex-grow: 1; /* Allow contact content to take remaining vertical space */
+    flex-grow: 1;
     max-width: 900px;
     margin: 40px auto;
     padding: 30px;
@@ -84,7 +84,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically within the remaining space */
+    justify-content: center; 
   }
   
   .contact-header {
