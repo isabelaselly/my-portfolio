@@ -1,12 +1,13 @@
 import React from 'react';
-import './Contact.css'; 
+import './Contact.css';
+import lightbulbImage from '../../assets/lightbulb.png'; // Correct import path
 
 function Contact() {
   return (
     <div className="contact-page">
       <div className="banner">
         <img
-          src="../../assets/lightbulb.png" 
+          src={lightbulbImage}
           alt="Contact Banner"
           className="banner-image"
         />
@@ -14,21 +15,24 @@ function Contact() {
           <h1>Lets Create some Memories</h1>
           <p className="banner-subtext">Lets work together</p>
           <button className="linkedin-button">
-  <a
-    href="https://www.linkedin.com/in/isabela-selleck" 
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    LinkedIn
-  </a>
-</button>
+            <a
+              href="https://www.linkedin.com/in/isabela-selleck"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </button>
         </div>
       </div>
 
       <div className="contact-content">
         <div className="contact-header">
           <h2>Get in Touch</h2>
-          <p>If you have any questions or need help, please fill out the form below. We do our best to respond within 1 business day.</p>
+          <p>
+            If you have any questions or need help, please fill out the form
+            below. We do our best to respond within 1 business day.
+          </p>
         </div>
         <form className="contact-form">
           <div className="form-group">

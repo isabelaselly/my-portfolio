@@ -1,0 +1,65 @@
+footer {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #555; /* Medium grey text */
+    padding: 40px 20px; /* Increased vertical padding (top and bottom) */
+    text-align: center;
+    border-top: 1px solid #c2e9f2; /* Slightly darker light blue for the border */
+    font-size: 1em; /* Slightly larger font size */
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px; /* Increased spacing below links */
+  }
+  
+  .footer-links a {
+    color: #2a2c97;
+    text-decoration: none;
+    margin: 0 20px; /* Increased horizontal spacing between links */
+    padding: 8px 0; /* Added vertical padding to the links themselves */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-links a:hover {
+    color: #333;
+  }
+  
+  .social-icons {
+    margin-bottom: 20px; /* Increased spacing below icons */
+  }
+  
+  .social-icons a {
+    color: #83a8d6;
+    font-size: 1.4em; /* Slightly larger icons */
+    margin: 0 15px; /* Increased spacing between icons */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+  
+  .copyright {
+    font-size: 0.9em; /* Slightly larger copyright text */
+    color: #888;
+    margin-bottom: 8px; /* Added a little more space */
+  }
+  
+  .credits {
+    font-size: 0.8em; /* Slightly larger credits text */
+    color:  #83a8d6;
+  }
+  
+  .credits a {
+    color:  #83a8d6;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .credits a:hover {
+    color:  #83a8d6;
+  }
