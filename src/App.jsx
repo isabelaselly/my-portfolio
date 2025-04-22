@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Projects from "./pages/Project"; // or ./pages/Projects if you renamed the file
 import Contact from "./pages/Contact";
 import Home from "./pages/home";
+import './index.css';
 
 
 function App() {

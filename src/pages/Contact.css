@@ -1,0 +1,170 @@
+/* Contact.css */
+
+.contact-page {
+    font-family: sans-serif;
+    color: #333;
+    margin: 0; /* Remove default page margin */
+    min-height: 100vh; /* Make the page take full viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust height based on content */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0; /* Default background color */
+  }
+  
+  .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  .banner-text {
+    position: relative;
+    z-index: 10;
+    color: #333;
+    padding: 40px 20px;
+    max-width: 960px;
+    width: 90%;
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .banner-text p.banner-subtext {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .linkedin-button {
+    background-color: #105095;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .linkedin-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .linkedin-button:hover {
+    background-color: #005e8f;
+  }
+  
+  .contact-content {
+    flex-grow: 1; /* Allow contact content to take remaining vertical space */
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #b7d7eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically within the remaining space */
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-header h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  .contact-header p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .contact-form {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+    min-height: 150px;
+  }
+  
+  .submit-button {
+    background-color: #0e4783;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #aebdcd;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .banner h1 {
+      font-size: 2em;
+    }
+  
+    .banner p.banner-subtext {
+      font-size: 1em;
+    }
+  
+    .contact-header h2 {
+      font-size: 2em;
+    }
+  
+    .contact-content {
+      padding: 20px;
+      margin: 20px auto;
+    }
+  }
