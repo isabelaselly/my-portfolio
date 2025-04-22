@@ -2,12 +2,12 @@ import React from 'react';
 import './About.css';
 
 function About() {
-  return (
+return (
     <div className="about-page">
-      <section className="bio">
-        <h2>About Me</h2>
-        <p>
-          Hi, I’m Isabela, an undergrad student studying Digital Media at the University of Central Florida, with four years of experience in social media and design. I have a passion for photography, film, photo editing, and graphic design, which allows me to wear many creative hats. Cooking is another deep passion of mine, and I understand the confidence it takes to try new things in the kitchen. I hope this website can bring joy to your cooking experience, making it easy and efficient to explore this new hobby.
+        <section className="bio">
+            <h2>About Me</h2>
+            <p>
+        Hi, I’m Isabela, an undergrad student studying Digital Media at the University of Central Florida, with four years of experience in social media and design. I have a passion for photography, film, photo editing, and graphic design, which allows me to wear many creative hats. I love brining all cretive things to life through visual story telling and design. I am a firm believer in the power of collaboration and the magic that happens when creative minds come together. I am always looking for new opportunities to learn and grow, and I am excited to see where my journey takes me next.
         </p>
       </section>
 
