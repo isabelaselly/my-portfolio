@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import lightbulbImage from '../../assets/lightbulb.png'; // Correct import path
+import lightbulbImage from '/assets/lightbulb.png';
 
 function Contact() {
   return (

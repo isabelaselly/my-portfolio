@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #a7c9e8
+    background-color: #f0f8ff;
   }
 
   .project-gallery {
@@ -77,15 +77,15 @@
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 15px;
-    background-color: #e0f2f7;
-    color: #6495ed;
+    background-color: #6495ed;
+    color:  #f0f8ff;
     font-size: 1em;
     text-decoration: none;
   }
   
   .project-slide a.project-link:hover {
-    background-color: #6495ed;
-    color: white;
+    background-color:  #f0f8ff;
+    color:  #6495ed;
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     border-color: #4682b4;

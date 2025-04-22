@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import './Project.css';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import photo1 from "../../assets/7.jpg";
-import photo2 from "../../assets/8.jpg";
-import photo3 from "../../assets/9.jpg";
-import photo4 from "../../assets/10.jpg";
-import photo5 from "../../assets/11.jpg";
-import photo6 from "../../assets/12.jpg";
-import video from "../../assets/facebook.mp4";
-import mockImage from "../../assets/mock.png";
+import photo1 from "/assets/7.jpg";
+import photo2 from "/assets/8.jpg";
+import photo3 from "/assets/9.jpg";
+import photo4 from "/assets/10.jpg";
+import photo5 from "/assets/11.jpg";
+import photo6 from "/assets/12.jpg";
+import video from "/assets/facebook.mp4";
+import mockImage from "/assets/mock.png";
 
 function Projects() {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);

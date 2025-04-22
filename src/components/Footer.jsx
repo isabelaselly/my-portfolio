@@ -16,7 +16,7 @@ function Footer() {
         &copy; 2025 Isabela Selleck. All rights reserved.
       </div>
       <div className="credits">
-        Built with <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">Vite</a> &amp; <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>. Design inspired by Jesus.
+        Built with <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">Vite</a> &amp; <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">React</a>. Design inspired by Jesus's Creation.
       </div>
       <link
         rel="stylesheet"
